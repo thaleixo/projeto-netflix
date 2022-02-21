@@ -1,0 +1,269 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+
+}
+.topo{
+   background: url(login-bg.jpg) ;
+   height: 1100px;
+  
+
+}
+
+#logo{
+    height: 50px;
+   padding: 1.2rem;
+   position: relative;
+   z-index: 1;
+}
+
+#entrar{
+ color: white;
+ position: absolute;
+ padding-left: 500px;
+ top: 170px;
+ font-size: 33px;
+ z-index: 1;
+
+    
+}
+
+.gradient{
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.4) 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 1100px;
+}
+
+.login-gradient{
+     background: rgba(0,0,0,.5);
+     top: 100px;
+    right: 100px;
+    left: 420px;
+    bottom: 0;
+     position: absolute;
+     align-items: center;
+     display: flex;
+     width: 450px;
+     height: 700px;
+}
+
+#input{
+    position: absolute;
+    z-index: 1;
+    left: 500px;
+    top: 240px;
+    height: 45px;
+    width: 300px;
+    background: rgb(73, 72, 72);
+    border: 0;
+    border-radius: 4px;
+}
+
+
+#input ,::placeholder{
+     color: gray;
+     text-align: left;
+     padding-left: 8px;
+     font-size: 15px;
+}
+
+#input2{
+    position: absolute;
+    z-index: 1;
+    left: 500px;
+    top: 320pxs;
+    height: 45px;
+    width: 300px;
+ 
+ }
+
+ #input2{
+    position: absolute;
+    z-index: 1;
+    left: 500px;
+    top: 320px;
+    height: 45px;
+    width: 310px;
+    background: rgb(73, 72, 72);
+    border: 0;
+    border-radius: 4px;
+ }
+
+ #input2::placeholder{
+    padding-left: 16px;
+ 
+  }
+
+#button{
+    position: absolute;
+    left: 500px;
+    z-index: 1;
+    top: 400px;
+    width: 310px;
+    height: 55px;
+    background: #e50914;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+#checkbox {
+   position: absolute;
+   z-index: 1;
+   left: 500px;
+   top: 470px;
+   background-color: #b3b3b3;
+   
+   
+}
+#lembre-se{
+    position: absolute;
+    z-index: 1;
+    left: 520px;
+    top: 468px;
+    color: #b3b3b3;
+    font-size: 15px;
+
+}
+
+#needhelp{
+     position: absolute;
+     z-index: 1;
+     left: 707px;
+     top: 470px;
+     color: #b3b3b3;
+     font-size: 13px;
+     text-decoration: none;
+}
+
+#logo-f{
+    position: absolute;
+    z-index: 1;
+    left: 500px;
+    top: 520px;
+    width: 20px;
+}
+
+#conectar{
+    position: absolute;
+    z-index: 1;
+    left: 530px;
+    top: 525px;
+    color: #737373;
+    font-size: 13px;
+}
+
+#novo{
+    position: absolute;
+    z-index: 1;
+    left: 500px;
+    top: 570px;
+    color: #737373;
+    font-size: 16px;
+}
+#assine{
+   
+    position: absolute;
+    z-index: 1;
+    left: 610px;
+    top: 570px;
+    color: white;
+    font-size: 16px;
+   
+}
+
+#esta{
+    position: absolute;
+    z-index: 1;
+    left: 500px;
+    width: 300px;
+    top: 600px;
+    color: #737373;
+    font-size: 13px;
+}
+#saiba{
+    position: absolute;
+    z-index: 1;
+    left: 725px;
+    width: 300px;
+    top: 615px;
+    color: blue;
+    font-size: 13px
+}
+
+#saibal{
+  text-decoration: none;
+  color: #0071eb;
+
+}
+
+.footer{
+   position: absolute;
+   z-index: 1;
+   
+
+}
+
+.footer-gradient{
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    top: 870px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 230px;
+}
+
+#duvidas{
+      color: #737373;
+      padding-left: 150px;
+      font-size: 17px;
+      padding-top: 30px;
+ 
+
+}
+
+#footer-p{
+   display: inline-block;
+   padding-left: 148px;
+   padding-top: 20px;
+}
+#primeira-f{
+     display: inline-block;
+     margin: 5px;
+     width: 22%;
+     font-size: 14px;
+
+
+}
+#linkf{
+   text-decoration: none;
+   color: #737373;
+
+}
+
+#idioma{
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;  
+   margin-top: 80px;
+   height: 45px;
+   width: 135px;
+   color: gray;
+   padding-left: 3px;
+   font-size: 15px;
+   right: 700px;
+   top: 60px;
+   border-radius: 3px;
+   border-color: white;
+}
